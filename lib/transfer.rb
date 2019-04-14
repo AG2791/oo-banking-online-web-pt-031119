@@ -9,7 +9,7 @@ class Transfer
 end
   
   def valid?
-    sender.valid? && receiver.valid? && send
+    sender.valid? && receiver.valid? 
     
   end
 
