@@ -13,6 +13,10 @@ end
     
   end
 
+def execute transaction
+  if valid? = true
+    
+end
   
   
 end
