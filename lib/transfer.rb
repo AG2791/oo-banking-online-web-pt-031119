@@ -7,5 +7,10 @@ class Transfer
   @amount = amount
   @status = status
   
+  def valid?
+    
+    sender.valid && reciever.valid
+end
+  
   
 end
