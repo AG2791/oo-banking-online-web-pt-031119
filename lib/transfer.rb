@@ -12,7 +12,6 @@ end
     
     sender.valid? && receiver.valid?
     
- 
   end
 
   
